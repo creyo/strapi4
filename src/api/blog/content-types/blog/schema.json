@@ -28,6 +28,12 @@
     "Description": {
       "type": "richtext",
       "required": true
+    },
+    "Author": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 3
     }
   }
 }
